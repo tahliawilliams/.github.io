@@ -1,0 +1,92 @@
+header {
+    padding: 30% 5%;
+    min-height: 100vh;
+    text-shadow: 5px 5px 10px #5D5E4F;
+    background-image: url(../images/restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+h1 {
+    background-color: black;
+    font-family: "Italiana", sans-serif;
+    font-size: 8em;
+    color: white;
+}
+
+h2 {
+    background-color: black;
+    font-family: "Abel", sans-serif;
+    font-size: 1.1em;
+    color: white;
+
+}
+
+h3 {
+    background-color: black;
+    font-family: "Abel", sans-serif;
+    font-size: 1.1em;
+    color: white;
+}
+
+
+p {
+    background-color: black;
+    font-family: "Abel", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+.box {
+
+    padding: 5%;
+}
+
+.box-black {
+    background-color: black;
+    font-family: "Abel", sans-serif;
+    letter-spacing: -1.2px;
+    color: white
+}
+
+.box-beige {
+    background-color: beige;
+    font-family: "Abel", sans-serif;
+    letter-spacing: -1.2px;
+}
+
+.box-orange {
+    background-color: orange;
+    font-family: "Abel", sans-serif;
+    letter-spacing: -1.2px;
+}
+
+.box-white {
+    background-color: white;
+    font-family: "Abel", sans-serif;
+    letter-spacing: -1.2px;
+}
+
+a {text-decoration: underline;
+text-decoration-color: orange;
+color:orange;}
+
+a:link {text-decoration: underline;
+text-decoration-color: orange;
+color: orange;}
+
+a:visited {
+    text-decoration: underline;
+    text-decoration-color: orange;
+color: orange;
+}
