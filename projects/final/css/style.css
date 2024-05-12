@@ -1,30 +1,3 @@
-header {font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: black; color: whitesmoke; font-family: "Sedan SC", serif;
-    font-weight: 400;
-    font-style: normal;}
-    main {background-color: black; color: white;}
-    image{width: 200px;height: auto;}
-    .small-image {
-        width: 500px; 
-        height: auto; 
-    }
-    .container {
-        position: relative;
-        height: 100vh; 
-    }
-    
-    .centered-image {
-        display: block;
-        position: absolute;
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%); 
-    }
-    
-.container {
-    max-width: 800px; 
-    margin: 0 auto;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -33,139 +6,64 @@ body {
     background-color: black;
 }
 
-.timeline {
-    margin: 20px auto;
-    max-width: 800px;
-}
-
-.event {
-    border-left: 2px solid #333;
-    padding-left: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    color: beige;
-
-}
-
-.event-date {
-    position: relative;
-    top: 0;
-    left: -50px;
-    width: 100px;
-    text-align: right;
-    font-weight: bold;
-    color: brown;
-}
-
-.event-description h3 {
-    margin-top: 0;
-}
-body {
-    font-family: 'Abel', sans-serif;
-    background-color: black;
-    padding: 20px;
-
-}
-
 header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-h2 {
-    font-family: 'Fraunces', sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
-}
-
-h5 {
-    font-size: 16px;
-    color: white;
-    margin-top: -10px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: white;
-}
-
-.centered-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-}
-
-.small-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 80%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.timeline {
-    margin-top: 50px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.event {
-    margin-bottom: 30px;
-    color: beige;
-}
-
-.event-date {
-    font-weight: bold;
-    font-size: 18px;
-    color: beige
-    ;
-}
-
-
-
-.event-description h3 {
-    font-size: 22px;
-    color: beige;
-}
-
-.event-description p {
-    font-size: 18px;
-    color: rgba(159, 133, 82, 0.661);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Sedan SC", serif;
+    /*font-weight: 400; */
+    /* font-style: normal;*/
+    margin: 2em 0;
+    height: 100vh;
+    padding: 25% 0 0 0;
     
 }
 
-@media (max-width: 768px) {
-    .timeline {
-        padding: 10px;
-        background-color: black;
-    }
-
-    .event-date {
-        font-size: 16px;
-    }
-
-    .event-description {
-        margin-left: 30px;
-    }
-
-    .event-description h3 {
-        font-size: 20px;
-    }
-
-    .event-description p {
-        font-size: 16px;
-    }
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    /*color: white; */
 }
+
+.container {
+    width: 75%;
+}
+
+h2  {
+    text-decoration: underline;
+    font-weight: 600;
+    padding: 1em 0;
+    color: mediumseagreen;
+}
+
+.timeline {
+    border-top: 2px solid brown;
+    margin: 3em auto;
+    padding: 2em 0;
+    width: 75%;
+    display: black;
+
+}
+
+.event-date {
+    font-weight: 800;
+    color: yellow;
+}
+
+.event {
+    border-left: 1px solid white;
+    padding: 0 0 0 2%;
+}
+
+.event-description {
+    font-size: .85em;
+}
+h3 {font-size: 1.25;
+font-weight: 800;
+color: red;
+}
+
+p {color: whitesmoke;}
+
+
